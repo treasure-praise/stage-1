@@ -1,17 +1,8 @@
-# 🚀 HNG12 Stage 0 - Public API
+# 🚀 HNG12 Stage 1 - Public API
 
-This is a simple public API built using Node.js and Express for the HNG12 internship. It returns basic information in JSON format, including:
-- Your registered email
-- The current datetime in ISO 8601 format (UTC)
-- The GitHub URL of the project’s codebase
+This is a simple public API built using Node.js and Express for the HNG12 internship. It  that takes a number and returns interesting mathematical properties about it, along with a fun fact.
 
 ## 📌  Example API Usage
-
-**Base URL:**
-
-```
-https://your-deployed-api.com/ (Replace with your actual deployed URL)
-```
 
 **Example Request:**
 ```
@@ -46,8 +37,8 @@ GET https://your-deployed-api.com/api/classify-number?number=371
 
 1. **Clone the repository:**
         ```sh
-        git clone https://github.com/treasure-praise/stage-0.git
-        cd stage-0
+        git clone https://github.com/treasure-praise/stage-1.git
+        cd stage-1
         ```
 
 2. **Install dependencies:**
@@ -55,25 +46,12 @@ GET https://your-deployed-api.com/api/classify-number?number=371
         npm install
         ```
 
-3. **Create a .env file and add:**
-        ```
-        EMAIL=your-email@example.com
-        GITHUB_URL=https://github.com/yourusername/hng12-stage0-api
-        ```
 
-4. **Start the server:**
+3. **Start the server:**
         ```sh
         node index.js
         ```
 
-## 🚀 Deployment
-
-You can deploy this API using:
-- **Render** (Guide)
-- **Vercel** (Guide)
-- **Railway** (Guide)
-
-Ensure your .env variables are set in your hosting environment.
 
 ## 📜 License
 
